@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--===== Swiper Bundle.css =====-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
     <link rel="stylesheet" href="base.css">
-    <script src="theme.js"></script>
+
 </head>
 
 <body>
@@ -20,6 +22,57 @@
     <header></header>
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+        <section class="intro1">
+
+            <div class="swiper one-grid-pagination-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="intro1-wrapper bg-cover" style="background-image: url(images/intro/intro1_1.jpg);">
+                            <div class="container">
+                                <div class="intro1-content slider1">
+                                    <h5 class="intro1-content__subtitle"> Premium Collection</h5>
+                                    <h2 class="intro1-content__title"> The Heritage <br> Collection</h2>
+                                    <div class="intro1-content__btn-wrapper">
+                                        <a href="#!" class="button button--primary">Learn more</a>
+                                        <a href="#!" class="button button--primary">Shop</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="intro1-wrapper bg-cover" style="background-image: url(images/intro/intro1_2.jpg);">
+                            <div class="container">
+                                <div class="intro1-content slider1">
+                                    <h5 class="intro1-content__subtitle"> Collaboration</h5>
+                                    <h2 class="intro1-content__title"> Native Union x <br> Tom Dixon</h2>
+                                    <div class="intro1-content__btn-wrapper">
+                                        <a href="#!" class="button button--primary">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="intro1-wrapper bg-cover" style="background-image: url(images/intro/intro1_3.jpg);">
+                            <div class="container">
+                                <div class="intro1-content slider1">
+                                    <h5 class="intro1-content__subtitle"> New in</h5>
+                                    <h2 class="intro1-content__title"> The Maison <br> Kitsuné Collab</h2>
+                                    <div class="intro1-content__btn-wrapper">
+                                        <a href="#!" class="button button--primary">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </section>
+
         <section class="blog1 fix">
             <div class="container">
                 <div class="blog1-card-wrapper">
@@ -102,7 +155,7 @@
                             create considered solutions fit for the modern lifestyle. Always driven by passion, we work
                             to empower others to live the same way.</p>
                         <div class="text-img1-card__btn-wrapper">
-                            <a class="button-white" href="#!">Read our story</a>
+                            <a class=" button button--secondary" href="#!">Read our story</a>
                         </div>
                     </div>
                 </div>
@@ -111,8 +164,8 @@
         <section class="category1 fix">
             <div class="container">
                 <div class="section-title1">
-                   <h6 class="section-title1__subtitle">Discover our</h6>
-                   <h2 class="section-title1__title">Collaborations</h2>
+                    <h6 class="section-title1__subtitle">Discover our</h6>
+                    <h2 class="section-title1__title">Collaborations</h2>
                 </div>
                 <div class="category1-wrapper">
                     <div class="category1-box">
@@ -160,6 +213,10 @@
 
     <footer></footer>
 
+
+    <!--===== Swiper Slider Js =====-->
+    <script src="swiper-bundle.min.js"></script>
+    <script src="theme.js"></script>
 </body>
 
 </html>
